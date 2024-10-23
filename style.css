@@ -1,28 +1,46 @@
 *{
     background-color: lightsteelblue;
 }
-
 a{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
 }
-ul{
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 40%; 
 }
 .title{
     border: 5px outset red;
+    margin: auto;
+    padding: 10px;
     text-align: center;
     font-size: 35px;
+    margin: 10px auto;
+    padding: 20px;
+    width: 400px;
+    height: 60px;
+    font-family: Verdana;
 }
 #recipes{
     color: black;
     border: 2px solid orange;
     list-style-type: none;
     text-align: center;
-    color:aqua;
+    margin: 20px auto;
+    display: block;
+    justify-content: center;
+    padding: 20px;
+    width: 250px;
+    height: 85px;
+    font-family: Georgia;
 }
 a#lasagna:hover {
     background-color: #ffcc99;
     color: rgb(194, 104, 0);
+
 }
 a#burger:hover {
     background-color: #78cbc3;
