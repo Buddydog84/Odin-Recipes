@@ -11,7 +11,9 @@
         background-color: #f6a26d;
     }
     .title {
-        color: rgb(255, 134, 4);
+        color: rgba(154, 79, 0, 0.756);
+        text-align: center;
+        border: 2px solid white;
     }
     img {
         height: 300px;
@@ -37,8 +39,35 @@
         justify-content: center; /* Centers the image horizontally */
         padding: 20px 0;
     }
-    .para{
+    p{
         font-size: 20px;
+        text-align: center;
+    }
+    .button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .notbutton {
+        outline: none;
+        text-decoration: none;
+        border: none;
+        background-color: #02555b;
+        color: black;
+    }
+    button {
+    background-color: #02555b;/
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+    outline: none;
+    }
+    button:hover {
+        background-color: #02555b;
     }
 </style>
 <body>
@@ -46,7 +75,7 @@
     <div class="image-container">
     <img src="https://thecozycook.com/wp-content/uploads/2022/04/Lasagna-Recipe-f.jpg"/>
     </div>
-    <p class="para">This delish italian dinner is an easy although not a very quick dish to feed an entire family plus some!<br>
+    <p>This delish italian dinner is an easy although not a very quick dish to feed an entire family plus some!<br>
        In just over two hours you can make this meal and cook it fully. Invite the whole town over and have them try your delishish meal.
     </p>
     <div class="container">
@@ -82,9 +111,10 @@
             <li>Either freeze, refrigerate for up to 2 days, or bake immediately: 350°F oven until the top is hot and bubbly, 20 to 30 minutes.</li>
         </ol>
     </p>
+    </div>
+    </div>
     <h2>Reference</h2>
     <p>Check out this website for the recipe I used <a href="https://www.thepioneerwoman.com/food-cooking/recipes/a11728/best-lasagna-recipe/">The Pioneer Women</a></p>
-    </div>
-    </div>
+    <button><a class="notbutton" href="https://buddydog84.github.io/Odin-Recipes/">Recipe Home</a></button>
 </body>
 </html>
