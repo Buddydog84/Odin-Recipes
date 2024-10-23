@@ -7,23 +7,50 @@
 <link href="styles.css" rel="stylesheet"/>
 </head>
 <style>
-    *{
-        background-color: #ffcc99;
+    * {
+        background-color: #f6a26d;
+    }
+    .title {
+        color: rgb(255, 134, 4);
     }
     img {
         height: 300px;
         width: 300px;
     }
-    .title{
-        color: orangered;
+    ul {
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+    }
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 20px;
+    }
+    .ingredients, .directions {
+        width: 45%;
+        text-align: left;
+    }
+    .image-container {
+        display: flex;
+        justify-content: center; /* Centers the image horizontally */
+        padding: 20px 0;
+    }
+    .para{
+        font-size: 20px;
     }
 </style>
 <body>
     <h1 class="title">Lasagna</h1>
+    <div class="image-container">
     <img src="https://thecozycook.com/wp-content/uploads/2022/04/Lasagna-Recipe-f.jpg"/>
-    <p>This delish italian dinner is an easy although not a very quick dish to feed an entire family plus some!<br>
+    </div>
+    <p class="para">This delish italian dinner is an easy although not a very quick dish to feed an entire family plus some!<br>
        In just over two hours you can make this meal and cook it fully. Invite the whole town over and have them try your delishish meal.
     </p>
+    <div class="container">
+        <div class=ingredients>
     <h2>Ingredients</h2>
     <p>
         <ul>
@@ -43,6 +70,8 @@
             <li>1 lb. sliced mozzarella cheese</li>
         </ul>
     </p>
+    </div>
+    <div class="directions">
     <h2>Directions</h2>
     <p>
         <ol>
@@ -55,5 +84,7 @@
     </p>
     <h2>Reference</h2>
     <p>Check out this website for the recipe I used <a href="https://www.thepioneerwoman.com/food-cooking/recipes/a11728/best-lasagna-recipe/">The Pioneer Women</a></p>
+    </div>
+    </div>
 </body>
 </html>

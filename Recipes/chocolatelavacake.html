@@ -4,21 +4,62 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
  <title>Chocolate Lava Cake</title>
-<link href="styles.css" rel="stylesheet"/>
 </head>
 <style>
     *{
-        background-color: #fda1d5;
+        background-color: #cb78b2;
+        text-align: center;
+    }
+    img{
+        height: 300px;
+        width:400px;
     }
     .title{
-        color: rgba(1, 193, 8, 0.815);
+        color: rgb(255, 0, 217);
+    }
+    ul{
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+    }
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 20px;
+    }
+    .ingredients, .directions {
+        width: 45%;
+        text-align: left;
+    }
+    .button-container {
+        display: flex;
+        justify-content: center; /* Centers the button */
+        margin-top: 20px;
+    }
+    button {
+        background-color: rgba(1, 193, 8, 0.815);
+        color: white;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    button:hover {
+        background-color: rgba(1, 150, 8, 0.815);
     }
 </style>
 <body>
     <h1 class="title">Chocolate Lava Cake</h1>
-    <img src="https://www.foodandwine.com/thmb/JzCnKoNjLkG2nRwVSdFZoR2pEAs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/molten-chocolate-cake-FT-RECIPE0220-0a33d7d0ab0c45588f7bfe742d33a9bc.jpg" height="300px" width="400px"/>
-    <p>Chocolate LAva Cakes are the perfect ending to any dinner.  
+    <div class="image-container">
+        <img src="https://www.foodandwine.com/thmb/JzCnKoNjLkG2nRwVSdFZoR2pEAs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/molten-chocolate-cake-FT-RECIPE0220-0a33d7d0ab0c45588f7bfe742d33a9bc.jpg" />
+    </div>
+    <p>Chocolate Lava Cakes are the perfect ending to any dinner.  
     </p>
+    <div class="container">
+        <div class=ingredients>
     <h2>Ingredients</h2>
     <p>
         <ul>
@@ -30,7 +71,10 @@
             <li>1/4 cup sugar</li>
             <li>1/4 teaspoon kosher salt</li>
         </ul>
+        <button><a href="index.html">Recipe Home</a></button>
     </p>
+        </div>
+        <div class="directions">
     <h2>Directions</h2>
     <p>
         <ol>
@@ -42,7 +86,9 @@
             <li>Remove cakes from oven and let cool in ramekins on baking sheet for 1 minute. Working with one ramekin at a time, cover ramekin with an inverted dessert plate. Carefully turn over, and let stand 10 seconds before lifting the ramekin to unmold cake. Repeat unmolding procedure with remaining cakes. Serve immediately.</li>
         </ol>
     </p>
-    <h2>Reference</h2>
-    <p>Check out this website for the recipe I used <a href="https://www.foodandwine.com/recipes/molten-chocolate-cakes">Food and Wine</a></p>
+        </div>
+        </div>        
+        <h2>Reference</h2>
+        <p>Check out this website for the recipe I used <a href="https://www.foodandwine.com/recipes/molten-chocolate-cakes">Food and Wine</a></p>
 </body>
 </html>

@@ -9,9 +9,25 @@
 <style>
     *{
         background-color: #78cbc3;
+        text-align: center;
     }
     .title{
         color: rgb(37, 7, 202);
+    }
+    ul{
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+    }
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 20px;
+    }
+    .ingredients, .directions {
+        width: 45%;
+        text-align: left;
     }
 </style>
 <body>
@@ -19,6 +35,8 @@
     <img src="https://hips.hearstapps.com/thepioneerwoman/wp-content/uploads/2016/03/dsc_1187.jpg?resize=1200:*" height="300px" width="400px"/>
     <p>This wonderfully tasty burger is a quick and easy thing to make when you want a nice refreshing bit! 
     </p>
+    <div class="container">
+    <div class=ingredients>
     <h2>Ingredients</h2>
     <p>
         <ul>
@@ -38,6 +56,8 @@
             <li>Green lettuce leaves</li>
         </ul>
     </p>
+    </div>
+    <div class="directions">
     <h2>Directions</h2>
     <p>
         <ol>
@@ -47,6 +67,8 @@
             <li>Butter a griddle or separate skillet over medium heat until golden brown. Spoon a little bit of the sauce on both sides and allow it to soak into the bread. Place the patties on the bottom buns and top each one with two pineapple slices, red onion slices, grilled bell pepper, and lettuce. Top with the top bun and smush it all together. Serve with extra sauce for dipping!</li>
         </ol>
     </p>
+    </div>
+</div>
     <h2>Reference</h2>
     <p>Check out this website for the recipe I used <a href="https://www.thepioneerwoman.com/food-cooking/recipes/a85472/hawaiian-burger/">The Pioneer Women</a></p>
 </body>
